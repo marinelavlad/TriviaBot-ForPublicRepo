@@ -1,0 +1,30 @@
+{
+  "1": {
+    "brand": "Cola Cola",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861233916543238144/coca_cola_taste_the_feeling_9.png"
+  },
+  "2": {
+    "brand": "Dacia Duster",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861228364621938688/dacia_duster_ad.jpg"
+  },
+  "3": {
+    "brand": "emag Genius",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861228491482333214/emag_ad.jpg"
+  },
+  "4": {
+    "brand": "Heineken",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861229520094887976/heineken_ad.jpg"
+  },
+  "5": {
+    "brand": "Nevrocalmin Somn-Usor",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861229555230834698/nevrocalmin_ad.jpg"
+  },
+  "6": {
+    "brand": "RedBull",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861229558774104064/redbull_ad.jpg"
+  },
+  "7": {
+    "brand": "Starbucks",
+    "ad_name": "https://cdn.discordapp.com/attachments/849695979775328296/861229543724285952/starbucks_ad.jpg"
+  }
+}

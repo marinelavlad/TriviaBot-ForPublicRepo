@@ -1,0 +1,47 @@
+{
+  "first_place" : {
+    "background": "red_background.png",
+    "color" : "brown",
+    "title" : "FIRST PLACE AWARD",
+    "text": "for the best results on TriviaQuiz Games!",
+    "image" : "first_place.jpg",
+    "width": 200,
+    "height" : 200
+  },
+  "second_place" : {
+    "background": "red_background.png",
+    "color" : "brown",
+    "title" : "SECOND PLACE AWARD",
+    "text": "for the second best results on TriviaQuiz Games!",
+    "image" : "second_place.jpg",
+    "width": 200,
+    "height" : 200
+  },
+  "third_place" : {
+    "background": "red_background.png",
+    "color" : "brown",
+    "title" : "THIRD PLACE AWARD",
+    "text": "for the third best results on TriviaQuiz Games!",
+    "image" : "third_place.jpg",
+    "width": 200,
+    "height" : 200
+  },
+  "premium_player" : {
+    "background": "congrats_background.png",
+    "color" : "purple",
+    "title" : "PREMIUM TRIVIA PLAYER",
+    "text": "for amazing results on TriviaQuiz Games!",
+    "image" : "premium_trivia_player.jpg",
+    "width": 200,
+    "height" : 200
+  },
+  "premium_member" : {
+    "background": "congrats_background.png",
+    "color" : "darkcyan",
+    "title" : "PREMIUM MEMBER TITLE",
+    "text": "for being now a Premium Member of our TriviaQuiz server!",
+    "image" : "premium_member.jpg",
+    "width": 201,
+    "height" : 166
+  }
+}

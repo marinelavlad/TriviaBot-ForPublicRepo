@@ -1,0 +1,42 @@
+{
+  "first_place" : {
+    "subject": "Congrats on the first place on TriviaQuiz game!\uD83C\uDF89",
+    "content1" : "You've got the<br>FIRST PLACE AWARD!",
+    "content2" : "Success requires a lot of hard work along with the right attitude.<br>You have used both to achieve great things, and we can't wait to see what you are going to do next.<br>Continue to enjoy our TriviaQuiz game!",
+    "content3" : "Best wishes,<br>Your TriviaQuiz team",
+    "template_id": "d-28940337f7c2421c890f9e4554cd3772",
+    "file_name" : "first_place.pdf"
+     },
+  "second_place" : {
+    "subject": "Congrats on the second place on TriviaQuiz game!\uD83C\uDF89",
+    "content1" : "You've got the<br>SECOND PLACE AWARD!",
+    "content2" : "Hardworking players like you always perform successfully in their quizzes.<br>We are deeply honored to give you this award!<br>Continue to enjoy our TriviaQuiz game!",
+    "content3" : "Best wishes,<br>Your TriviaQuiz team",
+    "template_id": "d-28940337f7c2421c890f9e4554cd3772",
+    "file_name" : "second_place.pdf"
+  },
+  "third_place" : {
+    "subject": "Congrats on the third place on TriviaQuiz game!\uD83C\uDF89",
+    "content1" : "You've got the<br>THIRD PLACE AWARD!",
+    "content2" : "You have earned our utmost respect and admiration.<br>Thank you for always bringing your best to the table.<br>We are deeply honored to give you this award!<br>Continue to enjoy our TriviaQuiz game!",
+    "content3" : "Best wishes,<br>Your TriviaQuiz team",
+    "template_id": "d-28940337f7c2421c890f9e4554cd3772",
+    "file_name" : "third_place.pdf"
+  },
+  "premium_player" : {
+    "subject": "Congrats on becoming Premium Player of TriviaQuiz game!\uD83C\uDF89",
+    "content1" : "You've got the<br>PREMIUM PLAYER AWARD!",
+    "content2" : "Hats off to you for this amazing victory!<br>You are an inspiration to many and a promise of great things ahead!<br>Continue to enjoy our TriviaQuiz game!",
+    "content3" : "Best wishes,<br>Your TriviaQuiz team",
+    "template_id": "d-3cf7e4d2698f492e86e6928e142a1f2d",
+    "file_name" : "premium_trivia_player.pdf"
+  },
+  "premium_member" : {
+   "subject": "Congrats on becoming Premium Member of TriviaQuiz server!\uD83C\uDF89",
+    "content1" : "You've got the<br>PREMIUM MEMBER RECOGNITION!",
+    "content2" : "Congratulations on making us all green-eyed monsters. So envious of your success. And so happy for you!<br>Continue to enjoy our TriviaQuiz game!",
+    "content3" : "Best wishes,<br>Your TriviaQuiz team",
+    "template_id": "d-3cf7e4d2698f492e86e6928e142a1f2d",
+    "file_name" : "premium_member.pdf"
+  }
+}

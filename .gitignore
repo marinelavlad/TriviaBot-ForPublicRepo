@@ -1,0 +1,9 @@
+.idea
+venv
+test.py
+botpackage/__pycache__/
+x.json
+botpackage/openweathermap_key
+bot_secrets
+sendgrid
+botpackage/client_secrets.json

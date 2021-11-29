@@ -1,0 +1,135 @@
+{
+  "bot_help": {
+    "invoke": "!bot_help",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Returns all the available commands, their permission roles and descriptions."
+  },
+  "auth": {
+    "invoke": "!auth",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Returns two options:\n1. To sign-in and get Player role if you've just joined the server (only Guest).\n2. Login - to reactivate Player role (and access all features)\nA private channel is created (for admin, bot and user), which is automatically deleted at the end."
+  },
+  "q": {
+    "invoke": "!q",
+    "permission_roles": [
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "It must be invoke in #trivia-game channel and is available for Players only.\nIt gives you questions of two levels of difficulty:\n1. Easy - for Player and PremiumPlayer\n2. Easy & Hard - for PremiumPlayers\nYou become a Premium Player after getting 20 points(=20 correct answers)."
+  },
+  "leaderboard": {
+    "invoke": "!leaderboard",
+    "permission_roles": [
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Removes all the #leaderboards channel's messages and display the updated leaderboard.\nAll the winners get diplomas via email."
+  },
+  "set_account": {
+    "invoke": "!set_account",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "It sets a game account with the amount of 0.0 lei.\nIf the account exists already, displays the sold."
+  },
+  "manage_account": {
+    "invoke": "!manage_account",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "If the account doesn't exist, ask you to set one. Otherwise, creates a private channel for admin, bot and author. Then, the user has 6 options:\n1. Check his account balance\n2. Buy Premium Member Title (100lei)\n3. Refund his account\n4. Donate to TriviaBot server\n5. Generate account statement via email\n6. Exit & Delete channel"
+  },
+  "server_report": {
+    "invoke": "!server_report",
+    "permission_roles": [
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Creates a new private channel & generates TriviaBot server's financial report: total sold and revenues from PremiumMember Titles, Donations and Ads, and theirs corresponding transactions numbers. At the end, the channel is deleted."
+  },
+  "myself": {
+    "invoke": "!myself",
+    "permission_roles": [
+      "PremiumMember"
+    ],
+    "description": "Creates a new private channel & generates a report about user's activity on TriviaBot Server: info about membership, game and account. At the end, the channel is deleted."
+  },
+  "friend_donation": {
+    "invoke": "!friend_donation @user.mention int_amount",
+    "permission_roles": [
+      "PremiumMember"
+    ],
+    "description": "If the sold allows, the donation is done. If the friend doesn't have an account yet, one is being set up before the donation."
+  },
+  "weather": {
+    "invoke": "!weather City",
+    "permission_roles": [
+      "PremiumMember"
+    ],
+    "description": "Gives the weather info for the desired city, if found. The output is displayed in #support-premium-members-only channel."
+  },
+  "review": {
+    "invoke": "!review",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Allows author to review the server.\n If he has already given a review, it shows him the last feedback and ask if an update is desired. If yes, server saves the new review.\nOtherwise, a first review is saved.\nThe updated server's rating score is displayed at the end. The score only considers the last feedback of each member (if many)."
+  },
+  "rating": {
+    "invoke": "!rating",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Gives Trivia Bot updated rating score. The score only considers the last feedback of each member (if many)."
+  },
+  "role": {
+    "invoke": "!role @user.mention Role",
+    "permission_roles": [
+      "Admin"
+    ],
+    "description": "Gives/Removes a user's specific role if doesn't/does have it."
+  },
+  "clear": {
+    "invoke": "!clear",
+    "permission_roles": [
+      "Guest",
+      "Player",
+      "PremiumPlayer",
+      "PremiumMember",
+      "Admin"
+    ],
+    "description": "Removes all the channel's messages!"
+  }
+}
